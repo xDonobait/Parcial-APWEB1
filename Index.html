@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARCIAL DONOBAN PERALTA</title>
+    <link rel="stylesheet" href="./Parcial.css">
+</head>
+<body>
+    <header>
+        <img src="LOGO.png" alt="Logo Uninuñez">
+        <h1>Cálculo de Nómina de Profesores</h1>
+    </header>
+    <main>
+        <form id="nomina-form">
+            <div class="form-group">
+                <label for="nombre">Nombre del Docente:</label>
+                <input type="text" id="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="horas">Número de Horas Trabajadas:</label>
+                <input type="number" id="horas" min="0" max="76" required>
+            </div>
+            <button type="submit">Calcular Nómina</button>
+        </form>
+        <div id="resultado"></div>
+    </main>
+    <footer>
+        <p>Corporación Universitaria Rafael Núñez - Donoban Andres Peralta Gutierrez</p>
+    </footer>
+    <script src="./Script.js"></script>
+</body>
+</html>
